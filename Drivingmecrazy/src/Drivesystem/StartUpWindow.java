@@ -1,5 +1,3 @@
-package Drivesystem;
-
 
 import java.awt.event.*;
 import javax.swing.*;
@@ -43,7 +41,7 @@ public class StartUpWindow implements ActionListener
 		customerlogin.setBounds(100, 260, 100, 25);
 		driverlogin.setBounds(100, 290, 100, 25);
 		
-		// Trigger action Configuration
+		// Trigger action Configuration -- Open user registration form 
 		signupbutton.addActionListener(this);
 		
 	}
