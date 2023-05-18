@@ -37,9 +37,13 @@ public class ReservationWindow implements ActionListener
 		label_driver.setBounds(80, 90, 160, 25);
 		label_location.setBounds(80, 110, 140, 25);
 		
-		logIn.add(passengerlogin);
+		reservationwindow.add(search_vehicle);
+		reservationwindow.add(search_driver);
+		reservationwindow.add(search_location);
 		
-		passengerlogin.setBounds(100, 250, 140, 25);
+		search_vehicle.setBounds(80, 150, 170, 25);
+		search_driver.setBounds(80, 180, 170, 25);
+		search_location.setBounds(80, 210, 170, 25);
 	}
 
 	

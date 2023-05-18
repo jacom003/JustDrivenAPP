@@ -36,7 +36,7 @@ public class loginIn implements ActionListener {
 				
 				logIn.add(passengerlogin);
 				
-				passengerlogin.setBounds(100, 250, 140, 25);
+				passengerlogin.setBounds(100, 250, 170, 25);
 				
 				passengerlogin.addActionListener(this);
 	}
